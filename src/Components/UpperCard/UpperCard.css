@@ -1,0 +1,200 @@
+@media only screen and (max-width: 750px) {
+  .main_upper_card {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
+  }
+  .text {
+    margin-top: 30px;
+    width: 100%;
+    height: fit-content;
+    font-family: "Inter", sans-serif;
+  }
+  .heading {
+    width: 100%;
+    height: fit-content;
+    word-break: normal;
+    margin-bottom: 30px;
+  }
+  .heading h1 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .paragraph {
+    width: 100%;
+    height: fit-content;
+    word-break: normal;
+    margin-bottom: 30px;
+  }
+  .paragraph p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.8rem;
+    color: hsl(236, 13%, 42%);
+  }
+  .button {
+    width: 100%;
+    height: fit-content;
+  }
+  .main_upper_card_desktop {
+    display: none;
+  }
+  #btn {
+    width: fit-content;
+    padding: 5px 20px;
+    font-weight: 500;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    border: none;
+    text-align: center;
+    border-radius: 2px;
+    height: 4rem;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+  }
+  #mobile {
+    display: block;
+    width: 100%;
+    height: 50%;
+  }
+  #desktop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 1000px) {
+  .main_upper_card {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
+  }
+  .text {
+    margin-top: 30px;
+    width: 100%;
+    height: fit-content;
+    font-family: "Inter", sans-serif;
+  }
+  .heading {
+    width: 100%;
+    height: fit-content;
+    word-break: normal;
+    margin-bottom: 30px;
+  }
+  .heading h1 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .paragraph {
+    width: 100%;
+    height: fit-content;
+    word-break: normal;
+    margin-bottom: 30px;
+  }
+  .paragraph p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.8rem;
+    color: hsl(236, 13%, 42%);
+  }
+  .button {
+    width: 100%;
+    height: fit-content;
+  }
+  .main_upper_card_desktop {
+    display: none;
+  }
+  #btn {
+    width: fit-content;
+    padding: 5px 20px;
+    font-weight: 500;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    border: none;
+    text-align: center;
+    border-radius: 2px;
+    height: 4rem;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+  }
+  #mobile {
+    display: block;
+    width: 100%;
+    height: 50%;
+  }
+  #desktop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .main_upper_card {
+    display: none;
+  }
+  .main_upper_card_desktop {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    row-gap: 2rem;
+    flex-direction: column;
+    height: fit-content;
+  }
+  .text {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: baseline;
+    column-gap: 15px;
+  }
+  .heading {
+    width: 100%;
+    height: fit-content;
+  }
+  .heading h1 {
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .button {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .paragraph p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.3rem;
+    color: hsl(236, 13%, 42%);
+  }
+  #btn {
+    width: fit-content;
+    padding: 5px 15px;
+    font-weight: 500;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    border: none;
+    text-align: center;
+    border-radius: 2px;
+    height: 3rem;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 8px;
+    transition: all 200ms;
+  }
+  #btn:hover {
+    background-color: hsl(240, 100%, 5%);
+  }
+  #desktop {
+    display: block;
+    width: 100%;
+    height: 15rem;
+  }
+  #mobile {
+    display: none;
+  }
+}

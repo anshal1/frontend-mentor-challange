@@ -1,0 +1,40 @@
+@media only screen and (max-width: 450px) {
+  #home {
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+  }
+  #home_desktop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 1000px) {
+  #home {
+    width: 100%;
+    max-width: 450px;
+    height: fit-content;
+    margin-top: 30px;
+    margin: auto;
+  }
+
+  #home_desktop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #home_desktop {
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+  }
+  #home {
+    display: none;
+  }
+  .upper_container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+  }
+}

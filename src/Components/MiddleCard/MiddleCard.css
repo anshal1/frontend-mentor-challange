@@ -1,0 +1,101 @@
+@media only screen and (max-width: 750px) {
+  .main_middlecard {
+    width: 100%;
+    height: fit-content;
+    background-color: hsl(240, 100%, 5%);
+    padding: 15px;
+  }
+  .heading_middle_card {
+    width: 100%;
+    height: fit-content;
+  }
+  .heading_middle_card h1 {
+    color: hsl(35, 77%, 62%);
+  }
+  .text_card {
+    width: 100%;
+    height: fit-content;
+    color: hsl(36, 100%, 99%);
+  }
+  .text_card_text {
+    width: 100%;
+    height: 7rem;
+    word-break: normal;
+    margin: 20px 0px;
+  }
+  .text_card_text h3 {
+    line-height: 2.5rem;
+  }
+  .text_card_text p {
+    font-weight: 400;
+    color: hsl(233, 8%, 79%);
+  }
+}
+@media only screen and (min-width: 750px) and (max-width: 1000px) {
+  .main_middlecard {
+    width: 100%;
+    height: fit-content;
+    background-color: hsl(240, 100%, 5%);
+    padding: 15px;
+  }
+  .heading_middle_card {
+    width: 100%;
+    height: fit-content;
+  }
+  .heading_middle_card h1 {
+    color: hsl(35, 77%, 62%);
+  }
+  .text_card {
+    width: 100%;
+    height: fit-content;
+    color: hsl(36, 100%, 99%);
+  }
+  .text_card_text {
+    width: 100%;
+    height: 7rem;
+    word-break: normal;
+    margin: 20px 0px;
+  }
+  .text_card_text h3 {
+    line-height: 2.5rem;
+  }
+  .text_card_text p {
+    font-weight: 400;
+    color: hsl(233, 8%, 79%);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .main_middlecard {
+    width: 19rem;
+    height: 30rem;
+    background-color: hsl(240, 100%, 5%);
+    padding: 15px;
+  }
+  .heading_middle_card {
+    width: 100%;
+    height: fit-content;
+  }
+  .heading_middle_card h1 {
+    color: hsl(35, 77%, 62%);
+  }
+  .text_card {
+    width: 100%;
+    height: fit-content;
+    color: hsl(36, 100%, 99%);
+  }
+  .text_card_text {
+    width: 100%;
+    height: 7rem;
+    word-break: normal;
+    margin: 20px 0px;
+  }
+  .text_card_text h3 {
+    line-height: 2.5rem;
+    font-size: 18px;
+  }
+  .text_card_text p {
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(233, 8%, 79%);
+  }
+}
